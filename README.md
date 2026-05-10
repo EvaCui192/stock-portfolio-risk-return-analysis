@@ -3,13 +3,9 @@
 
 ## 1. Project Background 项目背景
 
-### English Version
-
 This project uses Python to support portfolio completion and risk-return analysis. The starting point is an existing equity allocation consisting of 10 US-listed stocks, which together account for **59.40%** of the original portfolio.
 
 The objective is to analyse the risk and return characteristics of the existing holdings, screen candidate stocks for the remaining **40.60%** allocation, construct a full portfolio, and evaluate whether the new allocation improves the overall risk-return profile.
-
-### 中文版本
 
 本项目使用 Python 支持投资组合补全与风险收益分析。项目起点是一个已经给定的股票持仓组合，其中包含 10 只美国上市股票，合计占原始投资组合的 **59.40%**。
 
@@ -41,8 +37,6 @@ The existing holdings account for **59.40%** of the original portfolio.
 
 ## 3. Candidate Stock Screening 候选股票筛选
 
-### English Version
-
 To complete the remaining **40.60%** allocation, a candidate stock pool was constructed across different sectors, including financials, energy, industrials, healthcare, utilities and consumer defensive stocks.
 
 Candidate stocks were evaluated using the following criteria:
@@ -52,8 +46,6 @@ Candidate stocks were evaluated using the following criteria:
 - Sharpe Ratio
 - Average correlation with existing holdings
 - Sector diversification potential
-
-### 中文版本
 
 为了补全剩余 **40.60%** 的配置，本项目构建了一个跨行业候选股票池，覆盖金融、能源、工业、医疗、公用事业和消费防御等板块。
 
@@ -111,8 +103,6 @@ Full Portfolio = Existing Holdings 59.40% + New Allocation 40.60%
 
 ## 7. Methodology 分析方法
 
-### English Version
-
 The analysis follows these steps:
 
 1. Download monthly price data using yfinance
@@ -123,8 +113,6 @@ The analysis follows these steps:
 6. Select additional stocks based on risk-return performance, Sharpe Ratio and diversification benefits
 7. Construct the full portfolio using the original **59.40%** existing holdings and the new **40.60%** allocation
 8. Compare the existing holdings sleeve portfolio with the full portfolio
-
-### 中文版本
 
 本项目按照以下步骤进行：
 
@@ -146,15 +134,11 @@ The analysis follows these steps:
 | Existing Holdings Sleeve Portfolio | 33.23% | 24.66% | 1.19 | -37.53% |
 | Full Portfolio | 27.47% | 18.79% | 1.26 | -25.47% |
 
-### English Version
-
 The existing holdings sleeve portfolio generated a higher annualised return of **33.23%**, but it also carried higher annualised volatility of **24.66%** and a larger maximum drawdown of **-37.53%**.
 
 After adding the selected stocks for the remaining **40.60%** allocation, the full portfolio achieved a lower annualised return of **27.47%**, but annualised volatility decreased from **24.66%** to **18.79%**. The Sharpe Ratio improved from **1.19** to **1.26**, and the maximum drawdown improved from **-37.53%** to **-25.47%**.
 
 This suggests that the new allocation improved diversification, reduced downside risk and produced a more balanced risk-return profile.
-
-### 中文版本
 
 已有持仓 sleeve portfolio 的年化收益率较高，为 **33.23%**，但同时也伴随更高的年化波动率 **24.66%** 和更大的最大回撤 **-37.53%**。
 
@@ -272,15 +256,11 @@ The project generates several charts to support the analysis:
 
 ## 12. Conclusion 结论
 
-### English Version
-
 This project shows that portfolio construction should not focus only on maximising return. Although the existing holdings sleeve portfolio achieved a higher annualised return, it also carried higher volatility and larger downside risk.
 
 By allocating the remaining **40.60%** to selected stocks from different sectors, the full portfolio achieved lower volatility, a smaller maximum drawdown and a higher Sharpe Ratio. This indicates that the additional allocation improved risk-adjusted performance and portfolio stability.
 
 The results suggest that diversification across sectors can help reduce downside risk and improve the balance between return and risk.
-
-### 中文版本
 
 本项目说明，投资组合构建不应只关注收益最大化。虽然已有持仓 sleeve portfolio 实现了更高的年化收益率，但其波动率和下行风险也更高。
 
@@ -292,13 +272,9 @@ The results suggest that diversification across sectors can help reduce downside
 
 ## 13. Notes 说明
 
-### English Version
-
 This project is for educational and portfolio demonstration purposes only. It is not investment advice.
 
 The analysis is based on historical monthly price data from 2020 to 2025. Historical performance does not guarantee future results.
-
-### 中文版本
 
 本项目仅用于学习和作品集展示目的，不构成投资建议。
 
